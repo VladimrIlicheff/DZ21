@@ -12,9 +12,9 @@ double tempX = Math.Pow (secondX - firstX,2);
 double tempY = Math.Pow (secondY - firstY,2);
 double tempZ =Math.Pow (secondZ - firstZ,2);
 
-result = Math.Sqrt(tempX + tempY);
+result = Math.Sqrt(tempX + tempY + tempZ);
 
 Console.WriteLine($"расстояние между двумя точками в 3D = {result}");
 }
 
-GetDistanceBetweenTwoPoints(7, 1, -5, -1,5,9);
+GetDistanceBetweenTwoPoints(3,2,6,1,8,-7);
